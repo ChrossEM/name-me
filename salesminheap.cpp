@@ -100,10 +100,10 @@ int main() {
     cout << "Sorted Ventas by Venta total price:" << endl;
     for (const Venta& Venta : Ventas) {
         cout << "Precio total venta: " << Venta.customer_id 
-        << ", Ciudad de embarque: " << Venta.product_id 
-        << ", Ciudad de destino: " << Venta.purchase_date 
-        << ", Hora de llegada: " << Venta.quantity 
-        << ", Hora de salida: " << Venta.total_price<< "\n";
+        << ", ID de producto " << Venta.product_id 
+        << ", Fecha de compra " << Venta.purchase_date 
+        << ", Cantidad: " << Venta.quantity 
+        << ", Precio total: " << Venta.total_price<< "\n";
     }
 
     return 0;
